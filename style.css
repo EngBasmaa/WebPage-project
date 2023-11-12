@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    font-family: Verdana,sans-serif;
+    line-height: 2;
+    box-sizing: inherit;
+}
+
+header{
+    display:flex;
+    font-size:20px;
+    justify-content:space-between;
+    background-color:black;
+    position:sticky; /*to stick the header while moving down */
+    top:0; 
+}
+
+p{
+    line-height: 1.5;
+}
+
+.h{
+    color: white;
+    text-decoration: none;    
+    
+    padding: 15px;
+}
+
+.fa-solid{
+    color: white;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.a{
+    display:grid;
+    align-content: center;
+}
+
+.hh{
+    background-color: rgb(27, 180, 180);
+    text-decoration: none;    
+    display: inline-block;
+    padding: 15px;
+    color:white;
+
+}
+nav a:hover{
+    background-color: rgb(224, 228, 228);
+    color: black;
+}
+
+
+
+.parent-link{
+    background-color: rgba(156, 158, 158, 0.253);
+    width:100;
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    
+    /*to (get out) from its order*/
+    position: absolute;
+
+    /*to disappear the downlist */
+    visibility: hidden;
+}
+
+.down:hover + .parent-link{  /* (+): is to point to the next element */
+    visibility: visible;
+    
+}
+
+img{
+    width:100%;
+    height:auto;
+}
+
+section a{
+    position: relative;
+    bottom:120px;
+    left:20px;
+    font-size: 25px;
+    background-color: black;
+}
+
+.aa:hover{
+    background-color: rgb(27, 180, 180);    
+}
+
+.above{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.below{
+    display:flex;
+    justify-content: space-around;
+    height:170px; 
+    text-align: center;
+    
+}
+
+.avatar{
+    width:70px;
+    height:auto;
+    border-radius: 50%; /*to make avatar be circular */
+}
+
+.main{
+    margin-top: 50px;
+    background-color: rgb(69, 68, 68);
+    display:flex;
+    justify-content:space-between;
+    color:white;
+    height: 500px;
+    padding-top: 50px;
+
+}
+
+article{
+    margin:20px;
+    width:250px;
+}
+
+.child{
+    background-color: white;
+    color: black;
+}
+
+h2,h3,p{
+    padding-left:20px;
+
+}
+
+#a{
+    margin:10px;
+    width:25%;
+    margin-bottom: 50px;
+}
+
+.c{
+    display:flex;
+    justify-content:space-around;
+
+}
+
+.ch{
+    width: 33%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    text-align: center; 
+    background-color: rgb(223, 221, 221);   
+}
+
+#aaa,#tog{
+    border:1px solid grey;
+    padding:15px 0;
+    background-color: white;
+}
+
+
+
+.s{
+    display:inline-block;
+    position:static;
+    text-decoration: none;
+    background-color: rgb(27, 180, 180);
+    color:white;
+    margin:25px 0 ;
+    height:50px;
+    font-size: 25px;
+    width:160px;
+}
+
+.bl{
+    background-color: black;
+
+}
+
+.ch:hover{
+    box-shadow: 10px 15px 10px rgba(211, 211, 211, 0.829);
+}
+
+.s:hover{
+    background-color: grey;
+    color:black;
+}
+
+.form{
+    background-color: rgb(223, 221, 221);
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    display:flex;
+}
+
+.f{
+    line-height: 30px;
+    width:40%;
+    line-height: 30px;
+
+}
+
+.line{
+    border-bottom:7px solid rgb(27, 180, 180);
+    margin-left: 20px;
+
+    display: inline-block; /*to limit any property to be suitable for its text only not all the line */
+
+}
+
+.fa-location-dot,.fa-phone,.fa-envelope{
+    color:rgb(27, 180, 180);
+    font-size: 25px;
+}
+
+.frm{
+    border:1px solid white;
+    background-color: white; 
+    color:black;  
+    padding:20px;
+    height:280px;
+}
+
+input{
+    border:none;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.829);
+    display:block;
+    margin-bottom: 10px;
+    width:100%;  /*to make the input border be along the all space width */
+}
+
+form{
+    width:50%;
+    box-shadow: 5px 5px 25px grey; /* note that  */
+}
+
+.ll{
+    display:flex;
+}
+
+button{
+    position: static;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    float: right;
+}
+
+.chh{
+    width: 25px;
+    height:25px;
+}
+
+footer{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    color:white;
+    background-color: black;
+    height:300px;
+    padding:20px;
+    margin-top: 0px;
+
+}
+
+#w{
+    margin:6px;
+    
+}
+
+.fa-brands{
+    padding:10px;
+    background-color: rgb(27, 180, 180);
+    padding:15px;
+
+}
+
+.fff{
+    color: white;
+}
